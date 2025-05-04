@@ -1,0 +1,94 @@
+#component-div {
+  display: inline-flex !important;
+  vertical-align: top;
+  width: 100% !important;
+}
+
+#sidebar-section {
+  display: inline-flex !important;
+  position: sticky;
+  width: 25% !important;
+}
+
+#body-div {
+  display: flex !important;
+}
+
+#task-dashbord {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#TaskDashBoard {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 100px 0 0;
+}
+
+#TaskLeftDiv {
+  display: inline-flex;
+  width: 65%;
+  justify-content: center;
+  padding: 20px;
+}
+
+#TaskRightDiv {
+  display: inline-flex !important;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, rgba(0, 59, 110, 0.8), rgba(0, 58, 128, 0.8));
+  width: 35%;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+#image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 40px 0 20px 0; /* Increased top margin to push image down */
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.TaskLeftDashboardTitle {
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
+#TaskButton {
+  display: inline-block;
+  margin: 0 10px;
+  background-image: linear-gradient(to right, rgba(4, 103, 11, 0.8), rgba(0, 137, 14, 0.8));
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  width: 200px !important;
+  text-align: center;
+}
+
+#TaskButton-a {
+  text-decoration: none;
+}
